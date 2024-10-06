@@ -23,11 +23,15 @@ These Python scripts are packaged into executable files using `PyInstaller`.
 
 ## Manual Installation Steps
 
-For detailed manual installation steps (in Chinese), please refer to [README_CSDN.md](https://github.com/yuzhounh/Open-with-Cursor/blob/main/README_CSDN.md).
+- For detailed manual installation steps, please refer to [README_en.md](https://github.com/yuzhounh/Open-with-Cursor/blob/main/README_en.md).
+- For detailed manual installation steps (in Chinese), please refer to [README_zh-CN.md](https://github.com/yuzhounh/Open-with-Cursor/blob/main/README_zh-CN.md).
 
-## Similar Projects
 
-[Open with Cursor in Context Menu](https://github.com/Puliczek/open-with-cursor-context-menu) - A similar project that uses PowerShell scripts to achieve similar functionality.
+## Related Projects
+- [Open with Cursor in Context Menu](https://github.com/Puliczek/open-with-cursor-context-menu) - A similar project that uses PowerShell scripts to achieve similar functionality.
+
+- [cursor_ext_open-with-cursor-context-menu](https://github.com/eatcosmos/cursor_ext_open-with-cursor-context-menu) - A fork of the above project that adds a batch file for easy installation with a double-click.
+
 
 ## License
 
