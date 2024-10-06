@@ -5,6 +5,7 @@ This project adds Cursor editor options to the Windows context menu for files, f
 ## Features
 
 - Adds "Open with Cursor" option to the context menu for files, folders, and folder backgrounds
+- Adds "通过 Cursor 打开" option to the context menu similarly if the system default language is Chinese
 
 ## Usage
 
