@@ -1,1 +1,40 @@
-# Open-with-Cursor
+# Open with Cursor - Context Menu Integration
+
+This project adds Cursor editor options to the Windows context menu for files, folders, and folder backgrounds by modifying the Windows registry.
+
+## Features
+
+- Adds "Open with Cursor" option to the context menu for files, folders, and folder backgrounds
+
+## Usage
+
+1. Installation: Run `install-open-with-cursor.exe` with administrator privileges.
+2. Uninstallation: Run `uninstall-open-with-cursor.exe` with administrator privileges.
+
+## Source Code
+
+The project consists of two Python scripts:
+
+- `install-open-with-cursor.py`: Installs the context menu options
+- `uninstall-open-with-cursor.py`: Removes the context menu options
+
+These Python scripts are packaged into executable files using `PyInstaller`.
+
+## Manual Installation Steps
+
+For detailed manual installation steps (in Chinese), please refer to [README_CSDN.md](https://github.com/yuzhounh/Open-with-Cursor/blob/main/README_CSDN.md).
+
+## Similar Projects
+
+[Open with Cursor in Context Menu](https://github.com/Puliczek/open-with-cursor-context-menu) - A similar project that uses PowerShell scripts to achieve similar functionality.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Jing Wang - wangjing@xynu.edu.cn
+
+Project Link: https://github.com/yuzhounh/Open-with-Cursor
+
