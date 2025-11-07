@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Cursor]
+@="通过 Cursor 打开"
+"Icon"="%LOCALAPPDATA%\\Programs\\Cursor\\Cursor.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Cursor\command]
+@="\"%LOCALAPPDATA%\\Programs\\Cursor\\Cursor.exe\" \"%V\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Cursor]
+@="通过 Cursor 打开"
+"Icon"="%LOCALAPPDATA%\\Programs\\Cursor\\Cursor.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Cursor\command]
+@="\"%LOCALAPPDATA%\\Programs\\Cursor\\Cursor.exe\" \"%V\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Cursor]
+@="通过 Cursor 打开"
+"Icon"="%LOCALAPPDATA%\\Programs\\Cursor\\Cursor.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Cursor\command]
+@="\"%LOCALAPPDATA%\\Programs\\Cursor\\Cursor.exe\" \"%V\""
+

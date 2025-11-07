@@ -5,26 +5,39 @@ This project adds Cursor editor options to the Windows context menu for files, f
 ## Features
 
 - Adds "Open with Cursor" option to the context menu for files, folders, and folder backgrounds
-- Adds "通过 Cursor 打开" option to the context menu similarly if the system default language is Chinese
+- Adds "通过 Cursor 打开" option for Chinese language users
+- No administrator privileges required
+- User-specific installation (affects only current user)
+- Works on work laptops and corporate environments
 
 ## Usage
 
-1. Installation: Run `install-open-with-cursor.exe` with administrator privileges.
-2. Uninstallation: Run `uninstall-open-with-cursor.exe` with administrator privileges.
+### Quick Installation (Recommended)
 
-## Source Code
+1. **English**: Double-click `install-open-with-cursor.reg`
+2. **Chinese**: Double-click `install-open-with-cursor-zh.reg`
+3. Click "Yes" when Windows asks for confirmation
+4. Restart File Explorer or log out and back in
 
-The project consists of two Python scripts:
+### Uninstallation
 
-- `install-open-with-cursor.py`: Installs the context menu options
-- `uninstall-open-with-cursor.py`: Removes the context menu options
+1. Double-click `uninstall-open-with-cursor.reg`
+2. Click "Yes" when Windows asks for confirmation
+3. Restart File Explorer or log out and back in
 
-These Python scripts are packaged into executable files using `PyInstaller`.
+**Note:** The registry files use `HKEY_CURRENT_USER` instead of `HKEY_CLASSES_ROOT`, making the installation user-specific and eliminating the need for administrator privileges.
+
+## Files
+
+- `install-open-with-cursor.reg` - Install script (English)
+- `install-open-with-cursor-zh.reg` - Install script (Chinese)
+- `uninstall-open-with-cursor.reg` - Uninstall script (works for both languages)
 
 ## Manual Installation Steps
 
-- For detailed manual installation steps, please refer to [README_en.md](https://github.com/yuzhounh/Open-with-Cursor/blob/main/README_en.md).
-- For detailed manual installation steps (in Chinese), please refer to [README_zh-CN.md](https://github.com/yuzhounh/Open-with-Cursor/blob/main/README_zh-CN.md).
+If you prefer to manually edit the registry:
+- For detailed manual installation steps, please refer to [README_en.md](README_en.md).
+- For detailed manual installation steps (in Chinese), please refer to [README_zh-CN.md](README_zh-CN.md).
 
 
 ## Related Projects
