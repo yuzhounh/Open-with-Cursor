@@ -1,6 +1,17 @@
-# Open with Cursor - Context Menu Integration
+# Open with Cursor
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-D4A017.svg)](LICENSE)
+> Add Cursor to the Windows context menu using the Python or EXE installer.
+
+<p>
+  <a href="https://github.com/yuzhounh/Open-with-Cursor/releases/latest"><img src="https://img.shields.io/github/v/release/yuzhounh/Open-with-Cursor?style=flat&amp;color=0969da&amp;label=Release" alt="Latest stable release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-f59e0b?style=flat" alt="License: MIT"></a>
+  <img src="https://img.shields.io/badge/Platform-Windows-0078d4?style=flat" alt="Platform: Windows">
+  <img src="https://img.shields.io/badge/Python-3-3776ab?style=flat&amp;logo=python&amp;logoColor=white" alt="Python: 3">
+</p>
+
+<p>
+  <a href="https://github.com/yuzhounh/Open-with-Cursor/releases/latest">Latest release</a> · <a href="#usage">Get started</a> · <a href="LICENSE">License</a> · <a href="README_zh-CN.md">中文说明</a>
+</p>
 
 This project adds Cursor editor options to the Windows context menu for files, folders, and folder backgrounds by modifying the Windows registry.
 
